@@ -29,4 +29,4 @@ equipment = [
   ("Waterskin", "5sp")
 ]
 
-random_equipment = partial(choice(equipment))
+random_equipment = partial(choice, equipment)

@@ -28,5 +28,4 @@ def cast_die(name):
     die.name = name
     return die
 
-
 globals().update({die: cast_die(die) for die in dice_chain})
